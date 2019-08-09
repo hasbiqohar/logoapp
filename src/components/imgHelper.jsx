@@ -1,0 +1,1 @@
+export const srcImg = require.context('../../public/img', true);
