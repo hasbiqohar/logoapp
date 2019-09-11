@@ -156,13 +156,13 @@ export class DownloadImage extends Component {
                                 drawStroke(ctx, '#f99d1c', "blue", outlineShield);
                             }
                             ctx.drawImage(shieldImg, x, y, mainWidth, mainHeight);
-                            ctx.drawImage(mascotImg, x-900, y, mainWidth, mainHeight);
+                            ctx.drawImage(mascotImg, x, y, mainWidth, mainHeight);
                             
                         }     
 
                         if(textImg.length > 0) {
 
-                            ctx.font = "900 300px  sans-serif";
+                            ctx.font = "900 30px  sans-serif";
                             ctx.fillStyle = "white";
                             ctx.strokeStyle = "blue";
                             ctx.lineWidth = strokeWidth;
